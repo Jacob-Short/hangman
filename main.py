@@ -1,4 +1,4 @@
-from ascii_art import logo
+from ascii_art import logo, win
 import random
 
 from words_list import word_list
@@ -48,7 +48,8 @@ while not end_of_game:
     # Check if user has all letters correct
     if "_" not in display:
         end_of_game = True
-        print("You win.")
+        print(win)
+        print("You Win!!!!")
 
     from ascii_art import stages
     print(stages[lives])
