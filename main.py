@@ -12,7 +12,8 @@ lives = 6
 
 print(logo)
 
-print(f'Pssst, the solution is {hidden_words}.')
+# Hiding solution. Reveal if you'd like assistance :)
+# print(f'Pssst, the solution is {hidden_words}.')
 
 # Creating the blank lines to represent letters
 display = []
